@@ -13,7 +13,7 @@ otpVerifyBtn.addEventListener("click", () => {
         data.push(obj);
 
         localStorage.setItem('data', JSON.stringify(data));
-        // alert('OTP varified')
+        alert('OTP varified')
     } else {
         alert('invalid OTP');
     }
