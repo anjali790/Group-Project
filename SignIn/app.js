@@ -34,7 +34,7 @@ registerBtn.addEventListener("click", () => {
       alert('already  user');
     } else {
       data.push(obj);
-      // console.log(data);
+      console.log(data);
       localStorage.setItem('data', JSON.stringify(data));
     }
   }
